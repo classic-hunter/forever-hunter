@@ -1,7 +1,371 @@
 {
-  "generatedAt": null,
-  "trackerUrl": "https://4evrbugs.com/?class=hunter&status=pending%2Copen",
+  "generatedAt": "2026-11-11T03:25:14.278Z",
+  "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 0,
-  "bugs": []
+  "count": 24,
+  "bugs": [
+    {
+      "number": 475,
+      "title": "Bite currently not focus dump (hunter pet), intentional?",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/475",
+      "trackerUrl": "https://4evrbugs.com/bug/475",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-10T01:28:04Z",
+      "updatedAt": "2026-11-10T01:28:16Z",
+      "author": "MannySJH"
+    },
+    {
+      "number": 469,
+      "title": "Casting non-ranged abilities while a Hunter's auto shot is casting prevents them from casting",
+      "status": "Awaiting review",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/469",
+      "trackerUrl": "https://4evrbugs.com/bug/469",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-09T13:07:34Z",
+      "updatedAt": "2026-11-09T13:07:52Z",
+      "author": "watchyoursixx"
+    },
+    {
+      "number": 454,
+      "title": "Tallstrider pet: Dust Cloud never casts on autocast",
+      "status": "Open",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/454",
+      "trackerUrl": "https://4evrbugs.com/bug/454",
+      "labels": [
+        "Spells and Talents"
+      ],
+      "createdAt": "2026-11-06T19:24:27Z",
+      "updatedAt": "2026-11-07T03:42:28Z",
+      "author": "tedhaha"
+    },
+    {
+      "number": 453,
+      "title": "After being Mind Controlled/Slept by Mutanus the Devourer, multi shot can target party members",
+      "status": "Awaiting review",
+      "category": "Talents",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/453",
+      "trackerUrl": "https://4evrbugs.com/bug/453",
+      "labels": [
+        "Spells and Talents",
+        "Encounter",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-06T18:56:19Z",
+      "updatedAt": "2026-11-06T18:56:32Z",
+      "author": "logancrmp"
+    },
+    {
+      "number": 443,
+      "title": "[Hunter][Talent] Entrapment and Freezing Trap",
+      "status": "Awaiting review",
+      "category": "Traps",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/443",
+      "trackerUrl": "https://4evrbugs.com/bug/443",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-28T10:37:09Z",
+      "updatedAt": "2026-10-28T10:50:01Z",
+      "author": "yannickls"
+    },
+    {
+      "number": 433,
+      "title": "[Hunter] [Pets] Pet Defensive not working as intended",
+      "status": "Open",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/433",
+      "trackerUrl": "https://4evrbugs.com/bug/433",
+      "labels": [
+        "Spells and Talents"
+      ],
+      "createdAt": "2026-10-22T19:51:36Z",
+      "updatedAt": "2026-11-11T02:00:19Z",
+      "author": "Patrique1337"
+    },
+    {
+      "number": 432,
+      "title": "[Hunter] [Pets] Pets not gaining anything from stamina on the pet itself",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/432",
+      "trackerUrl": "https://4evrbugs.com/bug/432",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-22T19:34:35Z",
+      "updatedAt": "2026-11-06T20:36:08Z",
+      "author": "Patrique1337"
+    },
+    {
+      "number": 425,
+      "title": "ALL shaman totems are eating hunter traps, not just grounding.",
+      "status": "Awaiting review",
+      "category": "Traps",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/425",
+      "trackerUrl": "https://4evrbugs.com/bug/425",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-22T04:53:25Z",
+      "updatedAt": "2026-10-22T04:54:58Z",
+      "author": "PatternAgainstUsers"
+    },
+    {
+      "number": 402,
+      "title": "[Hunter][Pets] Pet regeneration & trailing issues",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/402",
+      "trackerUrl": "https://4evrbugs.com/bug/402",
+      "labels": [
+        "Pending Approval",
+        "NPCs"
+      ],
+      "createdAt": "2026-10-19T16:02:43Z",
+      "updatedAt": "2026-10-19T16:02:56Z",
+      "author": "Sammy-BM"
+    },
+    {
+      "number": 386,
+      "title": "Auto Shot gets cancelled when quickly switching targets",
+      "status": "Awaiting review",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/386",
+      "trackerUrl": "https://4evrbugs.com/bug/386",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-17T16:41:24Z",
+      "updatedAt": "2026-10-18T08:33:48Z",
+      "author": "Trovsk"
+    },
+    {
+      "number": 378,
+      "title": "Beast Lore does not provide full information",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/378",
+      "trackerUrl": "https://4evrbugs.com/bug/378",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-16T20:25:11Z",
+      "updatedAt": "2026-10-16T20:25:25Z",
+      "author": "kwazar-wow"
+    },
+    {
+      "number": 377,
+      "title": "Hunter Pet happiness randomly resets to its maximum value",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/377",
+      "trackerUrl": "https://4evrbugs.com/bug/377",
+      "labels": [
+        "Pending Approval",
+        "Other"
+      ],
+      "createdAt": "2026-10-16T20:17:19Z",
+      "updatedAt": "2026-10-16T20:17:32Z",
+      "author": "kwazar-wow"
+    },
+    {
+      "number": 361,
+      "title": "[Hunter] Auto shot cast time can be removed by spamming Auto Shot",
+      "status": "Awaiting review",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/361",
+      "trackerUrl": "https://4evrbugs.com/bug/361",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-16T06:33:23Z",
+      "updatedAt": "2026-10-18T00:30:41Z",
+      "author": "adocoD"
+    },
+    {
+      "number": 352,
+      "title": "[Hunter] Active Hawk keeps casting with !Aspect; stance API reports 0",
+      "status": "Open",
+      "category": "Talents",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/352",
+      "trackerUrl": "https://4evrbugs.com/bug/352",
+      "labels": [
+        "Spells and Talents"
+      ],
+      "createdAt": "2026-10-15T21:53:15Z",
+      "updatedAt": "2026-10-16T14:53:27Z",
+      "author": "3axap4eHko"
+    },
+    {
+      "number": 345,
+      "title": "Hunter pet happiness resets to Unhappy on entering a battleground and stays Unhappy after leaving",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/345",
+      "trackerUrl": "https://4evrbugs.com/bug/345",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval",
+        "PvP"
+      ],
+      "createdAt": "2026-10-14T21:37:59Z",
+      "updatedAt": "2026-10-14T21:38:12Z",
+      "author": "ArcSim"
+    },
+    {
+      "number": 272,
+      "title": "Hunters automatically acquire a new target if the current target dies in the middle of a cast.",
+      "status": "Awaiting review",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/272",
+      "trackerUrl": "https://4evrbugs.com/bug/272",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-08T00:45:33Z",
+      "updatedAt": "2026-10-08T00:45:44Z",
+      "author": "josh2602"
+    },
+    {
+      "number": 246,
+      "title": "Hunter Lone Wolf Buff Visual Bug",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/246",
+      "trackerUrl": "https://4evrbugs.com/bug/246",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-10-06T00:58:23Z",
+      "updatedAt": "2026-10-06T00:58:38Z",
+      "author": "VeramosWoW"
+    },
+    {
+      "number": 76,
+      "title": "Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot",
+      "status": "Open",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/76",
+      "trackerUrl": "https://4evrbugs.com/bug/76",
+      "labels": [
+        "Spells and Talents",
+        "Other"
+      ],
+      "createdAt": "2026-09-22T16:56:54Z",
+      "updatedAt": "2026-10-21T18:13:06Z",
+      "author": "sldo23"
+    },
+    {
+      "number": 73,
+      "title": "Hunter Pet - Boar won't auto cast Charge",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/73",
+      "trackerUrl": "https://4evrbugs.com/bug/73",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval",
+        "Other"
+      ],
+      "createdAt": "2026-09-22T12:32:34Z",
+      "updatedAt": "2026-09-29T17:09:39Z",
+      "author": "SinChase"
+    },
+    {
+      "number": 49,
+      "title": "Hunter pet following targets movement if set to passive",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/49",
+      "trackerUrl": "https://4evrbugs.com/bug/49",
+      "labels": [
+        "Pending Approval",
+        "Other",
+        "NPCs"
+      ],
+      "createdAt": "2026-09-20T04:29:49Z",
+      "updatedAt": "2026-09-20T04:30:02Z",
+      "author": "VeramosWoW"
+    },
+    {
+      "number": 48,
+      "title": "Hunter pet stats are not updating dynamically with gear and/or buff stat changes",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/48",
+      "trackerUrl": "https://4evrbugs.com/bug/48",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval",
+        "Other"
+      ],
+      "createdAt": "2026-09-20T03:27:17Z",
+      "updatedAt": "2026-10-11T01:36:38Z",
+      "author": "VeramosWoW"
+    },
+    {
+      "number": 43,
+      "title": "Using any shot/sting ability or toggling on /startattack will trigger the retry timer (0.1-0.4 second delay on next auto shot)",
+      "status": "Awaiting review",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/43",
+      "trackerUrl": "https://4evrbugs.com/bug/43",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-09-19T18:16:06Z",
+      "updatedAt": "2026-09-19T18:50:40Z",
+      "author": "Callmetobo"
+    },
+    {
+      "number": 31,
+      "title": "Hunter pet issues with unique attack speeds and normalization",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/31",
+      "trackerUrl": "https://4evrbugs.com/bug/31",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval",
+        "Other"
+      ],
+      "createdAt": "2026-09-18T17:46:00Z",
+      "updatedAt": "2026-10-25T18:22:37Z",
+      "author": "watchyoursixx"
+    },
+    {
+      "number": 14,
+      "title": "Ranged swing timer is reset by melee",
+      "status": "Open",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/14",
+      "trackerUrl": "https://4evrbugs.com/bug/14",
+      "labels": [
+        "Spells and Talents",
+        "Seen"
+      ],
+      "createdAt": "2026-09-18T00:55:21Z",
+      "updatedAt": "2026-10-16T17:28:57Z",
+      "author": "watchyoursixx"
+    }
+  ]
 }
