@@ -1,6 +1,6 @@
 {
   "name": "forever-hunter-discord-bot",
-  "version": "1.9.0",
+  "version": "1.10.0",
   "private": true,
   "type": "module",
   "description": "Discord bot that searches the Classic Hunter Lodge Forever Hunter GitHub Wiki.",

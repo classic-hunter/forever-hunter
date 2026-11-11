@@ -1,7 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
-const TRACKER_URL = process.env.HUNTER_TRACKER_URL || "https://4evrbugs.com/?class=hunter&status=pending%2Copen";
+const TRACKER_URL = process.env.HUNTER_TRACKER_URL || "https://4evrbugs.com/";
 const GITHUB_REPO = process.env.UPSTREAM_BUG_REPO || "ClassicWoWCommunity/forever-bugs";
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN || "";
 
@@ -11,45 +11,62 @@ const ghHeaders = {
   ...(GITHUB_TOKEN ? { Authorization: `Bearer ${GITHUB_TOKEN}`, "X-GitHub-Api-Version": "2022-11-28" } : {}),
 };
 
-async function fetchText(url) {
-  const response = await fetch(url, { headers: { "User-Agent": "ForeverHunterBugSync/1.0", Accept: "text/html,application/xhtml+xml" } });
-  if (!response.ok) throw new Error(`Tracker request failed: ${response.status} ${response.statusText}`);
-  return response.text();
+async function trackerReport(issue) {
+  const url = new URL(`/bug/${issue.number}`, TRACKER_URL).href;
+  const response = await fetch(url, {
+    headers: { "User-Agent": "ForeverHunterBugSync/1.10", Accept: "text/html" },
+    signal: AbortSignal.timeout(20_000),
+  });
+  if (response.status === 404 || response.status === 410) return null;
+  if (!response.ok) throw new Error(`Tracker issue #${issue.number} failed: HTTP ${response.status}`);
+
+  const html = (await response.text()).replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, "");
+  const heading = /<h1\b[^>]*>([\s\S]*?)<\/h1>/i.exec(html);
+  const title = heading && htmlToText(heading[1]);
+  if (!title || !title.startsWith(`#${issue.number} `)) {
+    throw new Error(`Could not verify tracker page for #${issue.number}`);
+  }
+
+  const report = html.slice(heading.index + heading[0].length).split(/<h[2-6]\b/i, 1)[0];
+  const lines = report.split(/<\/(?:p|div|li|section)>|<br\b[^>]*>/i).map(htmlToText).filter(Boolean);
+  const metadataIndex = lines.findIndex((line) => /^Status:/i.test(line));
+  const metadata = lines[metadataIndex]?.match(/^Status:\s*(.+?)\s*·\s*Area:\s*(.+)$/i);
+  if (!metadata) throw new Error(`Could not read tracker status and area for #${issue.number}`);
+
+  const status = {
+    open: "Open", pending: "Awaiting review", "awaiting review": "Awaiting review",
+    "needs info": "Needs info", closed: null, fixed: null, "not a bug": null,
+  }[metadata[1].toLowerCase()];
+  if (status === undefined) throw new Error(`Unknown tracker status for #${issue.number}: ${metadata[1]}`);
+
+  const hunterArea = metadata[2].split("·").some((area) => /^hunter$/i.test(area.trim()));
+  const reportTitle = title.slice(title.indexOf(" ") + 1);
+  const hunterTag = /^(?:\[[^\]]+\]\s*)*\[hunter\]/i.test(reportTitle);
+  const hunterMechanic = /\bhunters?(?:['’]s?)?\s+(?:pets?|traps?|auto[ -]?shot)\b/i;
+  const summary = lines[metadataIndex + 1] || "";
+  if (status && (hunterArea || hunterTag || hunterMechanic.test(reportTitle) ||
+    /^(?:hunter pets?\b|hunters['’]\s+\w+\s+pets?\b)/i.test(summary))) {
+    return { status, url };
+  }
+  return null;
 }
 
 function htmlToText(html) {
-  return html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ").replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ").replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, " ").replace(/\s+/g, " ").trim();
+  return html.replace(/<[^>]+>/g, " ").replace(/&amp;/g, "&").replace(/&#39;|&apos;/g, "'").replace(/&quot;/g, '"').replace(/&nbsp;/g, " ").replace(/&middot;|&#183;|&#x0*b7;/gi, "·").replace(/\s+/g, " ").trim();
 }
 
-function discoverBugIds(html) {
-  const ids = new Set();
-  for (const match of html.matchAll(/(?:href=["']?\/bug\/|\/bug\/)(\d+)/gi)) ids.add(Number(match[1]));
-  const text = htmlToText(html);
-  for (const match of text.matchAll(/#(\d+)\b/g)) ids.add(Number(match[1]));
-  return [...ids].filter(Number.isInteger).sort((a, b) => b - a);
-}
-
-function trackerStatusMap(html) {
-  const text = htmlToText(html);
-  const statuses = new Map();
-  const known = "Awaiting review|Awaiting Review|Open|Closed|Fixed|Not a bug|Needs info|Needs Info|Pending";
-  const regex = new RegExp(`#(\\d+)\\s+(.{0,300}?)\\s+(?:—|-|–)\\s+(${known})(?=\\s+#\\d+|$)`, "gi");
-  for (const match of text.matchAll(regex)) {
-    let status = match[3];
-    if (/^pending$/i.test(status)) status = "Awaiting review";
-    if (/^awaiting review$/i.test(status)) status = "Awaiting review";
-    if (/^needs info$/i.test(status)) status = "Needs info";
-    if (/^open$/i.test(status)) status = "Open";
-    statuses.set(Number(match[1]), status);
+async function openGithubIssues() {
+  const issues = new Map();
+  let url = `https://api.github.com/repos/${GITHUB_REPO}/issues?state=open&per_page=100`;
+  while (url) {
+    const response = await fetch(url, { headers: ghHeaders, signal: AbortSignal.timeout(20_000) });
+    if (!response.ok) throw new Error(`GitHub issue list failed: HTTP ${response.status}`);
+    for (const issue of await response.json()) {
+      if (!issue.pull_request && issue.state === "open") issues.set(issue.number, issue);
+    }
+    url = response.headers.get("link")?.match(/<([^>]+)>;\s*rel="next"/)?.[1];
   }
-  return statuses;
-}
-
-async function githubIssue(number) {
-  const response = await fetch(`https://api.github.com/repos/${GITHUB_REPO}/issues/${number}`, { headers: ghHeaders });
-  if (!response.ok) throw new Error(`GitHub issue #${number} failed: ${response.status} ${response.statusText}`);
-  const issue = await response.json();
-  return issue.pull_request ? null : issue;
+  return [...issues.values()];
 }
 
 function categoryFor(issue) {
@@ -62,46 +79,46 @@ function categoryFor(issue) {
   return "Other";
 }
 
-function statusFor(issue, trackerStatus) {
-  if (issue.state === "closed") return "Closed";
-  if (trackerStatus) return trackerStatus;
-  const labels = (issue.labels || []).map((l) => typeof l === "string" ? l : l.name).join(" ").toLowerCase();
-  if (/pending approval|awaiting review|pending/.test(labels)) return "Awaiting review";
-  if (/needs info|need info/.test(labels)) return "Needs info";
-  return "Open";
-}
-
 function esc(text) { return String(text || "").replace(/\|/g, "\\|").replace(/\r?\n/g, " ").trim(); }
 
 function buildMarkdown(payload) {
   const groups = new Map();
   for (const bug of payload.bugs) { if (!groups.has(bug.status)) groups.set(bug.status, []); groups.get(bug.status).push(bug); }
-  const lines = ["# 🐛 Forever Hunter Bugs", "", "This dashboard is generated automatically.", "", `**Source filter:** [4evrbugs Hunter / Open + Pending](${payload.trackerUrl})  `, `**Issue details:** [${payload.upstreamRepo}](https://github.com/${payload.upstreamRepo}/issues)  `, `**Last sync:** ${payload.generatedAt}`, "", `**Tracked Hunter issues:** ${payload.bugs.length}`, ""];
+  const lines = ["# 🐛 Forever Hunter Bugs", "", "This dashboard is generated automatically.", "", `**Tracker:** [4evrbugs](${payload.trackerUrl})  `, `**Issue details:** [${payload.upstreamRepo}](https://github.com/${payload.upstreamRepo}/issues)  `, `**Last sync:** ${payload.generatedAt}`, "", `**Tracked Hunter issues:** ${payload.bugs.length}`, ""];
   for (const status of ["Open", "Awaiting review", "Needs info"]) {
     const items = groups.get(status) || []; if (!items.length) continue;
     lines.push(`## ${status} (${items.length})`, "", "| Issue | Category | Title | Updated |", "| --- | --- | --- | --- |");
     for (const bug of items) lines.push(`| [#${bug.number}](${bug.url}) | ${esc(bug.category)} | ${esc(bug.title)} | ${bug.updatedAt.slice(0,10)} |`);
     lines.push("");
   }
-  lines.push("## How this works", "", "The scheduled GitHub Action uses the 4evrbugs Hunter filter to determine which reports belong to Hunters, then reads canonical issue data from the Forever bug tracker on GitHub.", "", "Do not edit this file manually; the next sync replaces generated content.", "");
+  lines.push("## How this works", "", "The scheduled GitHub Action checks individual 4evrbugs reports for Hunter classification and active status. Issue details come from the upstream GitHub tracker.", "", "The next sync replaces generated content.", "");
   return lines.join("\n");
 }
 
 async function main() {
-  const html = await fetchText(TRACKER_URL);
-  const ids = discoverBugIds(html);
-  const statuses = trackerStatusMap(html);
-  if (!ids.length) throw new Error("No Hunter bug IDs discovered; refusing to overwrite tracker with empty data.");
+  const candidates = await openGithubIssues();
   const issues = [];
-  for (const id of ids) {
-    try {
-      const issue = await githubIssue(id);
-      if (!issue || issue.state !== "open") continue;
-      issues.push({ number: issue.number, title: issue.title, status: statusFor(issue, statuses.get(issue.number)), category: categoryFor(issue), url: issue.html_url, trackerUrl: `https://4evrbugs.com/bug/${issue.number}`, labels: (issue.labels || []).map((l) => typeof l === "string" ? l : l.name), createdAt: issue.created_at, updatedAt: issue.updated_at, author: issue.user?.login ?? null });
-    } catch (error) { console.warn(`[bugs] skipping #${id}: ${error.message}`); }
+  const concurrency = 5;
+  for (let index = 0; index < candidates.length; index += concurrency) {
+    await Promise.all(candidates.slice(index, index + concurrency).map(async (issue) => {
+      const report = await trackerReport(issue);
+      if (!report) return;
+      issues.push({
+        number: issue.number,
+        title: issue.title,
+        status: report.status,
+        category: categoryFor(issue),
+        url: issue.html_url,
+        trackerUrl: report.url,
+        labels: (issue.labels || []).map((label) => typeof label === "string" ? label : label.name),
+        createdAt: issue.created_at,
+        updatedAt: issue.updated_at,
+        author: issue.user?.login ?? null,
+      });
+    }));
   }
   if (!issues.length) throw new Error("No usable open Hunter issues returned; refusing to overwrite existing data.");
-  issues.sort((a,b) => new Date(b.updatedAt) - new Date(a.updatedAt));
+  issues.sort((a, b) => b.number - a.number);
   const payload = { generatedAt: new Date().toISOString(), trackerUrl: TRACKER_URL, upstreamRepo: GITHUB_REPO, count: issues.length, bugs: issues };
   await fs.mkdir(path.resolve("data"), { recursive: true });
   await fs.writeFile(path.resolve("data/hunter-bugs.json"), JSON.stringify(payload, null, 2) + "\n");

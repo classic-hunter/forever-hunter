@@ -556,7 +556,7 @@ to synchronize the FAQ and all wiki page cards.
 
 # Automatic Hunter Bug Tracker
 
-The repository contains an hourly GitHub Action at `.github/workflows/sync-hunter-bugs.yml`. It uses the 4evrbugs Hunter filter for classification, then reads canonical issue data from `ClassicWoWCommunity/forever-bugs`. It generates `data/hunter-bugs.json` and `HUNTER_BUGS.md`.
+The repository contains an hourly GitHub Action at `.github/workflows/sync-hunter-bugs.yml`. It checks individual 4evrbugs reports for active status and Hunter classification, using open issues from `ClassicWoWCommunity/forever-bugs` as candidates. Bug lists show the highest issue numbers first. It generates `data/hunter-bugs.json` and `HUNTER_BUGS.md`.
 
 Discord commands: `/bugs`, `/bug number:454`. Set `DISCORD_BUG_CHANNEL_ID` for a separate live bug channel; otherwise the FAQ channel is used. While the bot is online, the bug panel refreshes every 15 minutes.
 

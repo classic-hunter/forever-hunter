@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.10.0
+
+- Verify Hunter classification and active status on individual 4evrbugs reports, including clearly identified Hunter pet reports.
+- Sort generated bug data and Discord bug lists by issue number, highest first.
+
 ## 1.9.0
 
 - Added hourly GitHub Action for automatic Hunter bug tracking
