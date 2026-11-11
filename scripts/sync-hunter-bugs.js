@@ -33,22 +33,27 @@ async function trackerReport(issue) {
   const metadata = lines[metadataIndex]?.match(/^Status:\s*(.+?)\s*·\s*Area:\s*(.+)$/i);
   if (!metadata) throw new Error(`Could not read tracker status and area for #${issue.number}`);
 
-  const status = {
-    open: "Open", pending: "Awaiting review", "awaiting review": "Awaiting review",
-    "needs info": "Needs info", closed: null, fixed: null, "not a bug": null,
-  }[metadata[1].toLowerCase()];
-  if (status === undefined) throw new Error(`Unknown tracker status for #${issue.number}: ${metadata[1]}`);
-
   const hunterArea = metadata[2].split("·").some((area) => /^hunter$/i.test(area.trim()));
   const reportTitle = title.slice(title.indexOf(" ") + 1);
   const hunterTag = /^(?:\[[^\]]+\]\s*)*\[hunter\]/i.test(reportTitle);
   const hunterMechanic = /\bhunters?(?:['’]s?)?\s+(?:pets?|traps?|auto[ -]?shot)\b/i;
   const summary = lines[metadataIndex + 1] || "";
-  if (status && (hunterArea || hunterTag || hunterMechanic.test(reportTitle) ||
+  if (!(hunterArea || hunterTag || hunterMechanic.test(reportTitle) ||
     /^(?:hunter pets?\b|hunters['’]\s+\w+\s+pets?\b)/i.test(summary))) {
-    return { status, url };
+    return null;
   }
-  return null;
+
+  const trackerStatus = metadata[1].toLowerCase();
+  const statuses = new Map([
+    ["open", "Open"], ["seen", "Open"],
+    ["pending", "Awaiting review"], ["awaiting review", "Awaiting review"],
+    ["needs info", "Needs info"], ["closed", null], ["fixed", null], ["not a bug", null],
+  ]);
+  const status = statuses.get(trackerStatus);
+  if (status === undefined) {
+    console.warn(`[bugs] skipping #${issue.number}: unknown tracker status ${metadata[1]}`);
+  }
+  return status ? { status, url } : null;
 }
 
 function htmlToText(html) {

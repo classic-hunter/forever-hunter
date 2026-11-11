@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.10.1
+
+- Treat Seen as Open for Hunter reports and log unfamiliar statuses without aborting the sync.
+
 ## 1.10.0
 
 - Verify Hunter classification and active status on individual 4evrbugs reports, including clearly identified Hunter pet reports.
