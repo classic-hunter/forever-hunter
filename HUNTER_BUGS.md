@@ -4,7 +4,7 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-11T03:25:14.278Z
+**Last sync:** 2026-11-11T11:02:35.083Z
 
 **Tracked Hunter issues:** 24
 
