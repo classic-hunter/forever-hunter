@@ -1,0 +1,4 @@
+.env
+node_modules/
+wiki-cache/
+.DS_Store
