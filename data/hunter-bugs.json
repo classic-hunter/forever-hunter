@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-12T09:52:57.282Z",
+  "generatedAt": "2026-11-12T18:21:40.809Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
   "count": 26,
   "bugs": [
+    {
+      "number": 496,
+      "title": "Hunter Auto Shot Windup Prevents Certain Abilities from Activating",
+      "status": "Awaiting review",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/496",
+      "trackerUrl": "https://4evrbugs.com/bug/496",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-12T15:59:19Z",
+      "updatedAt": "2026-11-12T15:59:33Z",
+      "author": "PhosGames"
+    },
     {
       "number": 489,
       "title": "Hunter Pet - Prowl ablility inconsistent",
@@ -124,21 +139,6 @@
       "author": "Patrique1337"
     },
     {
-      "number": 432,
-      "title": "[Hunter] [Pets] Pets not gaining anything from stamina on the pet itself",
-      "status": "Awaiting review",
-      "category": "Pets",
-      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/432",
-      "trackerUrl": "https://4evrbugs.com/bug/432",
-      "labels": [
-        "Spells and Talents",
-        "Pending Approval"
-      ],
-      "createdAt": "2026-10-22T19:34:35Z",
-      "updatedAt": "2026-11-12T03:06:16Z",
-      "author": "Patrique1337"
-    },
-    {
       "number": 425,
       "title": "ALL shaman totems are eating hunter traps, not just grounding.",
       "status": "Awaiting review",
@@ -239,7 +239,7 @@
         "Spells and Talents"
       ],
       "createdAt": "2026-10-15T21:53:15Z",
-      "updatedAt": "2026-11-12T03:00:55Z",
+      "updatedAt": "2026-11-12T17:58:00Z",
       "author": "3axap4eHko"
     },
     {

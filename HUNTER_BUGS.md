@@ -4,7 +4,7 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-12T09:52:57.282Z
+**Last sync:** 2026-11-12T18:21:40.809Z
 
 **Tracked Hunter issues:** 26
 
@@ -22,13 +22,13 @@ This dashboard is generated automatically.
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
+| [#496](https://github.com/ClassicWoWCommunity/forever-bugs/issues/496) | Ranged | Hunter Auto Shot Windup Prevents Certain Abilities from Activating | 2026-11-12 |
 | [#489](https://github.com/ClassicWoWCommunity/forever-bugs/issues/489) | Pets | Hunter Pet - Prowl ablility inconsistent | 2026-11-12 |
 | [#488](https://github.com/ClassicWoWCommunity/forever-bugs/issues/488) | Pets | Summon Hawk returns to Hunter instead of attacking when pets are on Passive | 2026-11-12 |
 | [#475](https://github.com/ClassicWoWCommunity/forever-bugs/issues/475) | Pets | Bite currently not focus dump (hunter pet), intentional? | 2026-11-10 |
 | [#469](https://github.com/ClassicWoWCommunity/forever-bugs/issues/469) | Ranged | Casting non-ranged abilities while a Hunter's auto shot is casting prevents them from casting | 2026-11-11 |
 | [#453](https://github.com/ClassicWoWCommunity/forever-bugs/issues/453) | Talents | After being Mind Controlled/Slept by Mutanus the Devourer, multi shot can target party members | 2026-11-06 |
 | [#443](https://github.com/ClassicWoWCommunity/forever-bugs/issues/443) | Traps | [Hunter][Talent] Entrapment and Freezing Trap | 2026-10-28 |
-| [#432](https://github.com/ClassicWoWCommunity/forever-bugs/issues/432) | Pets | [Hunter] [Pets] Pets not gaining anything from stamina on the pet itself | 2026-11-12 |
 | [#425](https://github.com/ClassicWoWCommunity/forever-bugs/issues/425) | Traps | ALL shaman totems are eating hunter traps, not just grounding. | 2026-10-22 |
 | [#402](https://github.com/ClassicWoWCommunity/forever-bugs/issues/402) | Pets | [Hunter][Pets] Pet regeneration & trailing issues | 2026-11-12 |
 | [#386](https://github.com/ClassicWoWCommunity/forever-bugs/issues/386) | Ranged | Auto Shot gets cancelled when quickly switching targets | 2026-10-18 |
