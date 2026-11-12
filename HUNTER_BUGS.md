@@ -4,7 +4,7 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-11T18:43:38.220Z
+**Last sync:** 2026-11-12T01:33:31.398Z
 
 **Tracked Hunter issues:** 24
 
@@ -23,7 +23,7 @@ This dashboard is generated automatically.
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
 | [#475](https://github.com/ClassicWoWCommunity/forever-bugs/issues/475) | Pets | Bite currently not focus dump (hunter pet), intentional? | 2026-11-10 |
-| [#469](https://github.com/ClassicWoWCommunity/forever-bugs/issues/469) | Ranged | Casting non-ranged abilities while a Hunter's auto shot is casting prevents them from casting | 2026-11-09 |
+| [#469](https://github.com/ClassicWoWCommunity/forever-bugs/issues/469) | Ranged | Casting non-ranged abilities while a Hunter's auto shot is casting prevents them from casting | 2026-11-11 |
 | [#453](https://github.com/ClassicWoWCommunity/forever-bugs/issues/453) | Talents | After being Mind Controlled/Slept by Mutanus the Devourer, multi shot can target party members | 2026-11-06 |
 | [#443](https://github.com/ClassicWoWCommunity/forever-bugs/issues/443) | Traps | [Hunter][Talent] Entrapment and Freezing Trap | 2026-10-28 |
 | [#432](https://github.com/ClassicWoWCommunity/forever-bugs/issues/432) | Pets | [Hunter] [Pets] Pets not gaining anything from stamina on the pet itself | 2026-11-06 |
