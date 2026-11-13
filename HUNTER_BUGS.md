@@ -4,15 +4,14 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-13T00:28:59.923Z
+**Last sync:** 2026-11-13T08:02:32.303Z
 
-**Tracked Hunter issues:** 26
+**Tracked Hunter issues:** 25
 
-## Open (5)
+## Open (4)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
-| [#454](https://github.com/ClassicWoWCommunity/forever-bugs/issues/454) | Pets | Tallstrider pet: Dust Cloud never casts on autocast | 2026-11-12 |
 | [#433](https://github.com/ClassicWoWCommunity/forever-bugs/issues/433) | Pets | [Hunter] [Pets] Pet Defensive not working as intended | 2026-11-11 |
 | [#352](https://github.com/ClassicWoWCommunity/forever-bugs/issues/352) | Talents | [Hunter] Active Hawk keeps casting with !Aspect; stance API reports 0 | 2026-11-12 |
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |

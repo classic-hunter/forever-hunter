@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-13T00:28:59.923Z",
+  "generatedAt": "2026-11-13T08:02:32.303Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 26,
+  "count": 25,
   "bugs": [
     {
       "number": 496,
@@ -78,20 +78,6 @@
       "createdAt": "2026-11-09T13:07:34Z",
       "updatedAt": "2026-11-11T19:36:20Z",
       "author": "watchyoursixx"
-    },
-    {
-      "number": 454,
-      "title": "Tallstrider pet: Dust Cloud never casts on autocast",
-      "status": "Open",
-      "category": "Pets",
-      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/454",
-      "trackerUrl": "https://4evrbugs.com/bug/454",
-      "labels": [
-        "Spells and Talents"
-      ],
-      "createdAt": "2026-11-06T19:24:27Z",
-      "updatedAt": "2026-11-12T03:09:56Z",
-      "author": "tedhaha"
     },
     {
       "number": 453,
