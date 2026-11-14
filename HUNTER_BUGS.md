@@ -4,7 +4,7 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-14T03:20:35.073Z
+**Last sync:** 2026-11-14T11:31:16.282Z
 
 **Tracked Hunter issues:** 25
 
@@ -25,7 +25,7 @@ This dashboard is generated automatically.
 | [#489](https://github.com/ClassicWoWCommunity/forever-bugs/issues/489) | Pets | Hunter Pet - Prowl ablility inconsistent | 2026-11-12 |
 | [#488](https://github.com/ClassicWoWCommunity/forever-bugs/issues/488) | Pets | Summon Hawk returns to Hunter instead of attacking when pets are on Passive | 2026-11-12 |
 | [#475](https://github.com/ClassicWoWCommunity/forever-bugs/issues/475) | Pets | Bite currently not focus dump (hunter pet), intentional? | 2026-11-10 |
-| [#469](https://github.com/ClassicWoWCommunity/forever-bugs/issues/469) | Ranged | Casting non-ranged abilities while a Hunter's auto shot is casting prevents them from casting | 2026-11-13 |
+| [#469](https://github.com/ClassicWoWCommunity/forever-bugs/issues/469) | Ranged | Casting non-ranged abilities while a Hunter's auto shot is casting prevents them from casting | 2026-11-14 |
 | [#453](https://github.com/ClassicWoWCommunity/forever-bugs/issues/453) | Talents | After being Mind Controlled/Slept by Mutanus the Devourer, multi shot can target party members | 2026-11-06 |
 | [#443](https://github.com/ClassicWoWCommunity/forever-bugs/issues/443) | Traps | [Hunter][Talent] Entrapment and Freezing Trap | 2026-10-28 |
 | [#425](https://github.com/ClassicWoWCommunity/forever-bugs/issues/425) | Traps | ALL shaman totems are eating hunter traps, not just grounding. | 2026-10-22 |
