@@ -4,7 +4,7 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-13T22:40:35.301Z
+**Last sync:** 2026-11-14T03:20:35.073Z
 
 **Tracked Hunter issues:** 25
 
@@ -32,7 +32,7 @@ This dashboard is generated automatically.
 | [#402](https://github.com/ClassicWoWCommunity/forever-bugs/issues/402) | Pets | [Hunter][Pets] Pet regeneration & trailing issues | 2026-11-12 |
 | [#386](https://github.com/ClassicWoWCommunity/forever-bugs/issues/386) | Ranged | Auto Shot gets cancelled when quickly switching targets | 2026-10-18 |
 | [#378](https://github.com/ClassicWoWCommunity/forever-bugs/issues/378) | Pets | Beast Lore does not provide full information | 2026-10-16 |
-| [#377](https://github.com/ClassicWoWCommunity/forever-bugs/issues/377) | Pets | Hunter Pet happiness randomly resets to its maximum value | 2026-10-16 |
+| [#377](https://github.com/ClassicWoWCommunity/forever-bugs/issues/377) | Pets | Hunter Pet happiness randomly resets to its maximum value | 2026-11-13 |
 | [#361](https://github.com/ClassicWoWCommunity/forever-bugs/issues/361) | Ranged | [Hunter] Auto shot cast time can be removed by spamming Auto Shot | 2026-11-12 |
 | [#345](https://github.com/ClassicWoWCommunity/forever-bugs/issues/345) | Pets | Hunter pet happiness resets to Unhappy on entering a battleground and stays Unhappy after leaving | 2026-10-14 |
 | [#272](https://github.com/ClassicWoWCommunity/forever-bugs/issues/272) | Ranged | Hunters automatically acquire a new target if the current target dies in the middle of a cast. | 2026-10-08 |
