@@ -1,9 +1,39 @@
 {
-  "generatedAt": "2026-11-18T14:04:18.024Z",
+  "generatedAt": "2026-11-18T21:59:33.114Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 26,
+  "count": 28,
   "bugs": [
+    {
+      "number": 557,
+      "title": "Experience gain buffs do not apply to hunter pet.",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/557",
+      "trackerUrl": "https://4evrbugs.com/bug/557",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-18T13:11:12Z",
+      "updatedAt": "2026-11-18T13:11:23Z",
+      "author": "KevanGerabagi"
+    },
+    {
+      "number": 556,
+      "title": "Hunter pets auto swings don't get the crit they inherit from the hunter",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/556",
+      "trackerUrl": "https://4evrbugs.com/bug/556",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-18T12:38:24Z",
+      "updatedAt": "2026-11-18T12:38:37Z",
+      "author": "ToxicKevinFerm"
+    },
     {
       "number": 550,
       "title": "Hunter Owl Pet ability Mine! should be off the GCD.",
