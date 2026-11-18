@@ -4,9 +4,9 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-18T04:26:05.450Z
+**Last sync:** 2026-11-18T14:04:18.024Z
 
-**Tracked Hunter issues:** 25
+**Tracked Hunter issues:** 26
 
 ## Open (4)
 
@@ -17,10 +17,11 @@ This dashboard is generated automatically.
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
 | [#14](https://github.com/ClassicWoWCommunity/forever-bugs/issues/14) | Ranged | Ranged swing timer is reset by melee | 2026-10-16 |
 
-## Awaiting review (21)
+## Awaiting review (22)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
+| [#550](https://github.com/ClassicWoWCommunity/forever-bugs/issues/550) | Pets | Hunter Owl Pet ability Mine! should be off the GCD. | 2026-11-18 |
 | [#496](https://github.com/ClassicWoWCommunity/forever-bugs/issues/496) | Ranged | Hunter Auto Shot Windup Prevents Certain Abilities from Activating | 2026-11-12 |
 | [#489](https://github.com/ClassicWoWCommunity/forever-bugs/issues/489) | Pets | Hunter Pet - Prowl ablility inconsistent | 2026-11-12 |
 | [#488](https://github.com/ClassicWoWCommunity/forever-bugs/issues/488) | Pets | Summon Hawk returns to Hunter instead of attacking when pets are on Passive | 2026-11-12 |
@@ -37,7 +38,7 @@ This dashboard is generated automatically.
 | [#345](https://github.com/ClassicWoWCommunity/forever-bugs/issues/345) | Pets | Hunter pet happiness resets to Unhappy on entering a battleground and stays Unhappy after leaving | 2026-10-14 |
 | [#272](https://github.com/ClassicWoWCommunity/forever-bugs/issues/272) | Ranged | Hunters automatically acquire a new target if the current target dies in the middle of a cast. | 2026-10-08 |
 | [#246](https://github.com/ClassicWoWCommunity/forever-bugs/issues/246) | Pets | Hunter Lone Wolf Buff Visual Bug | 2026-10-06 |
-| [#73](https://github.com/ClassicWoWCommunity/forever-bugs/issues/73) | Pets | Hunter Pet - Unique pet abilities do not consistently auto-cast when toggled on | 2026-11-12 |
+| [#73](https://github.com/ClassicWoWCommunity/forever-bugs/issues/73) | Pets | Hunter Pet - Unique pet abilities do not consistently auto-cast when toggled on | 2026-11-18 |
 | [#49](https://github.com/ClassicWoWCommunity/forever-bugs/issues/49) | Pets | Hunter pet following targets movement if set to passive | 2026-09-20 |
 | [#48](https://github.com/ClassicWoWCommunity/forever-bugs/issues/48) | Pets | Hunter pet stats are not updating dynamically with gear and/or buff stat changes | 2026-10-11 |
 | [#43](https://github.com/ClassicWoWCommunity/forever-bugs/issues/43) | Ranged | Using any shot/sting ability or toggling on /startattack will trigger the retry timer (0.1-0.4 second delay on next auto shot) | 2026-09-19 |

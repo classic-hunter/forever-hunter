@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-18T04:26:05.450Z",
+  "generatedAt": "2026-11-18T14:04:18.024Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 25,
+  "count": 26,
   "bugs": [
+    {
+      "number": 550,
+      "title": "Hunter Owl Pet ability Mine! should be off the GCD.",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/550",
+      "trackerUrl": "https://4evrbugs.com/bug/550",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-18T04:41:36Z",
+      "updatedAt": "2026-11-18T13:36:37Z",
+      "author": "KevanGerabagi"
+    },
     {
       "number": 496,
       "title": "Hunter Auto Shot Windup Prevents Certain Abilities from Activating",
@@ -302,7 +317,7 @@
         "Other"
       ],
       "createdAt": "2026-09-22T12:32:34Z",
-      "updatedAt": "2026-11-12T03:59:29Z",
+      "updatedAt": "2026-11-18T13:47:19Z",
       "author": "SinChase"
     },
     {
