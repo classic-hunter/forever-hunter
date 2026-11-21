@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-21T17:59:52.449Z",
+  "generatedAt": "2026-11-21T23:21:50.798Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 29,
+  "count": 30,
   "bugs": [
+    {
+      "number": 588,
+      "title": "Permanence [legacy talent] has no effect on Trueshot Aura",
+      "status": "Awaiting review",
+      "category": "Talents",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/588",
+      "trackerUrl": "https://4evrbugs.com/bug/588",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-21T10:05:00Z",
+      "updatedAt": "2026-11-21T10:05:09Z",
+      "author": "nerotix"
+    },
     {
       "number": 571,
       "title": "Legacy Talent - Quick and the Dead not applying to certain spells",

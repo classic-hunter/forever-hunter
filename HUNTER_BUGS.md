@@ -4,9 +4,9 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-21T17:59:52.449Z
+**Last sync:** 2026-11-21T23:21:50.798Z
 
-**Tracked Hunter issues:** 29
+**Tracked Hunter issues:** 30
 
 ## Open (4)
 
@@ -17,10 +17,11 @@ This dashboard is generated automatically.
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
 | [#14](https://github.com/ClassicWoWCommunity/forever-bugs/issues/14) | Ranged | Ranged swing timer is reset by melee | 2026-10-16 |
 
-## Awaiting review (25)
+## Awaiting review (26)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
+| [#588](https://github.com/ClassicWoWCommunity/forever-bugs/issues/588) | Talents | Permanence [legacy talent] has no effect on Trueshot Aura | 2026-11-21 |
 | [#571](https://github.com/ClassicWoWCommunity/forever-bugs/issues/571) | Pets | Legacy Talent - Quick and the Dead not applying to certain spells | 2026-11-19 |
 | [#557](https://github.com/ClassicWoWCommunity/forever-bugs/issues/557) | Pets | Experience gain buffs do not apply to hunter pet. | 2026-11-18 |
 | [#556](https://github.com/ClassicWoWCommunity/forever-bugs/issues/556) | Pets | Hunter pets auto swings don't get the crit they inherit from the hunter | 2026-11-18 |
