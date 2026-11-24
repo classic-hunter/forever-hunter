@@ -4,9 +4,9 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-24T10:58:58.709Z
+**Last sync:** 2026-11-24T21:16:03.900Z
 
-**Tracked Hunter issues:** 33
+**Tracked Hunter issues:** 32
 
 ## Open (6)
 
@@ -19,7 +19,7 @@ This dashboard is generated automatically.
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
 | [#14](https://github.com/ClassicWoWCommunity/forever-bugs/issues/14) | Ranged | Ranged swing timer is reset by melee | 2026-10-16 |
 
-## Awaiting review (27)
+## Awaiting review (26)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
@@ -27,7 +27,6 @@ This dashboard is generated automatically.
 | [#588](https://github.com/ClassicWoWCommunity/forever-bugs/issues/588) | Talents | Permanence [legacy talent] has no effect on Trueshot Aura | 2026-11-21 |
 | [#571](https://github.com/ClassicWoWCommunity/forever-bugs/issues/571) | Pets | Legacy Talent - Quick and the Dead not applying to certain spells | 2026-11-19 |
 | [#557](https://github.com/ClassicWoWCommunity/forever-bugs/issues/557) | Pets | Experience gain buffs do not apply to hunter pet. | 2026-11-18 |
-| [#556](https://github.com/ClassicWoWCommunity/forever-bugs/issues/556) | Pets | Hunter pets auto swings don't get the crit they inherit from the hunter | 2026-11-18 |
 | [#550](https://github.com/ClassicWoWCommunity/forever-bugs/issues/550) | Pets | Hunter Owl Pet ability Mine! should be off the GCD. | 2026-11-18 |
 | [#496](https://github.com/ClassicWoWCommunity/forever-bugs/issues/496) | Ranged | Hunter Auto Shot Windup Prevents Certain Abilities from Activating | 2026-11-12 |
 | [#489](https://github.com/ClassicWoWCommunity/forever-bugs/issues/489) | Pets | Hunter Pet - Prowl ablility inconsistent | 2026-11-12 |

@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-24T10:58:58.709Z",
+  "generatedAt": "2026-11-24T21:16:03.900Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 33,
+  "count": 32,
   "bugs": [
     {
       "number": 619,
@@ -87,21 +87,6 @@
       "createdAt": "2026-11-18T13:11:12Z",
       "updatedAt": "2026-11-18T13:11:23Z",
       "author": "KevanGerabagi"
-    },
-    {
-      "number": 556,
-      "title": "Hunter pets auto swings don't get the crit they inherit from the hunter",
-      "status": "Awaiting review",
-      "category": "Pets",
-      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/556",
-      "trackerUrl": "https://4evrbugs.com/bug/556",
-      "labels": [
-        "Spells and Talents",
-        "Pending Approval"
-      ],
-      "createdAt": "2026-11-18T12:38:24Z",
-      "updatedAt": "2026-11-18T12:38:37Z",
-      "author": "ToxicKevinFerm"
     },
     {
       "number": 550,
