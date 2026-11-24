@@ -1,9 +1,48 @@
 {
-  "generatedAt": "2026-11-24T00:55:49.703Z",
+  "generatedAt": "2026-11-24T10:58:58.709Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 30,
+  "count": 33,
   "bugs": [
+    {
+      "number": 619,
+      "title": "Summon Hawk causes the whole nearby pack to aggro when used on a single mob - abnormal threat",
+      "status": "Open",
+      "category": "Other",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/619",
+      "trackerUrl": "https://4evrbugs.com/bug/619",
+      "labels": [],
+      "createdAt": "2026-11-24T03:11:20Z",
+      "updatedAt": "2026-11-24T03:11:33Z",
+      "author": "yatelixinuo"
+    },
+    {
+      "number": 618,
+      "title": "Hunter Beast Mastery talent Ferocity only increases pet/hawk SPELL critical strike chance instead of all critical strikes",
+      "status": "Open",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/618",
+      "trackerUrl": "https://4evrbugs.com/bug/618",
+      "labels": [],
+      "createdAt": "2026-11-24T03:11:19Z",
+      "updatedAt": "2026-11-24T03:11:29Z",
+      "author": "yatelixinuo"
+    },
+    {
+      "number": 616,
+      "title": "Explosive Trap can only have one instance of the dot effect up at a time",
+      "status": "Awaiting review",
+      "category": "Traps",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/616",
+      "trackerUrl": "https://4evrbugs.com/bug/616",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-23T21:39:15Z",
+      "updatedAt": "2026-11-23T21:39:32Z",
+      "author": "jcdanel"
+    },
     {
       "number": 588,
       "title": "Permanence [legacy talent] has no effect on Trueshot Aura",

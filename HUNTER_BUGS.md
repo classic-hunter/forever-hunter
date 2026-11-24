@@ -4,23 +4,26 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-24T00:55:49.703Z
+**Last sync:** 2026-11-24T10:58:58.709Z
 
-**Tracked Hunter issues:** 30
+**Tracked Hunter issues:** 33
 
-## Open (4)
+## Open (6)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
+| [#619](https://github.com/ClassicWoWCommunity/forever-bugs/issues/619) | Other | Summon Hawk causes the whole nearby pack to aggro when used on a single mob - abnormal threat | 2026-11-24 |
+| [#618](https://github.com/ClassicWoWCommunity/forever-bugs/issues/618) | Pets | Hunter Beast Mastery talent Ferocity only increases pet/hawk SPELL critical strike chance instead of all critical strikes | 2026-11-24 |
 | [#433](https://github.com/ClassicWoWCommunity/forever-bugs/issues/433) | Pets | [Hunter] [Pets] Pet Defensive not working as intended | 2026-11-11 |
 | [#352](https://github.com/ClassicWoWCommunity/forever-bugs/issues/352) | Talents | [Hunter] Active Hawk keeps casting with !Aspect; stance API reports 0 | 2026-11-12 |
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
 | [#14](https://github.com/ClassicWoWCommunity/forever-bugs/issues/14) | Ranged | Ranged swing timer is reset by melee | 2026-10-16 |
 
-## Awaiting review (26)
+## Awaiting review (27)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
+| [#616](https://github.com/ClassicWoWCommunity/forever-bugs/issues/616) | Traps | Explosive Trap can only have one instance of the dot effect up at a time | 2026-11-23 |
 | [#588](https://github.com/ClassicWoWCommunity/forever-bugs/issues/588) | Talents | Permanence [legacy talent] has no effect on Trueshot Aura | 2026-11-21 |
 | [#571](https://github.com/ClassicWoWCommunity/forever-bugs/issues/571) | Pets | Legacy Talent - Quick and the Dead not applying to certain spells | 2026-11-19 |
 | [#557](https://github.com/ClassicWoWCommunity/forever-bugs/issues/557) | Pets | Experience gain buffs do not apply to hunter pet. | 2026-11-18 |
