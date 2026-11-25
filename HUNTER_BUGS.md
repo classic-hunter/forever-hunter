@@ -4,16 +4,15 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-24T21:16:03.900Z
+**Last sync:** 2026-11-25T04:19:26.404Z
 
-**Tracked Hunter issues:** 32
+**Tracked Hunter issues:** 31
 
-## Open (6)
+## Open (5)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
 | [#619](https://github.com/ClassicWoWCommunity/forever-bugs/issues/619) | Other | Summon Hawk causes the whole nearby pack to aggro when used on a single mob - abnormal threat | 2026-11-24 |
-| [#618](https://github.com/ClassicWoWCommunity/forever-bugs/issues/618) | Pets | Hunter Beast Mastery talent Ferocity only increases pet/hawk SPELL critical strike chance instead of all critical strikes | 2026-11-24 |
 | [#433](https://github.com/ClassicWoWCommunity/forever-bugs/issues/433) | Pets | [Hunter] [Pets] Pet Defensive not working as intended | 2026-11-11 |
 | [#352](https://github.com/ClassicWoWCommunity/forever-bugs/issues/352) | Talents | [Hunter] Active Hawk keeps casting with !Aspect; stance API reports 0 | 2026-11-12 |
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
@@ -29,7 +28,7 @@ This dashboard is generated automatically.
 | [#557](https://github.com/ClassicWoWCommunity/forever-bugs/issues/557) | Pets | Experience gain buffs do not apply to hunter pet. | 2026-11-18 |
 | [#550](https://github.com/ClassicWoWCommunity/forever-bugs/issues/550) | Pets | Hunter Owl Pet ability Mine! should be off the GCD. | 2026-11-18 |
 | [#496](https://github.com/ClassicWoWCommunity/forever-bugs/issues/496) | Ranged | Hunter Auto Shot Windup Prevents Certain Abilities from Activating | 2026-11-12 |
-| [#489](https://github.com/ClassicWoWCommunity/forever-bugs/issues/489) | Pets | Hunter Pet - Prowl ablility inconsistent | 2026-11-12 |
+| [#489](https://github.com/ClassicWoWCommunity/forever-bugs/issues/489) | Pets | Hunter Pet - Prowl ablility inconsistent | 2026-11-25 |
 | [#488](https://github.com/ClassicWoWCommunity/forever-bugs/issues/488) | Pets | Summon Hawk returns to Hunter instead of attacking when pets are on Passive | 2026-11-12 |
 | [#475](https://github.com/ClassicWoWCommunity/forever-bugs/issues/475) | Pets | Bite currently not focus dump (hunter pet), intentional? | 2026-11-10 |
 | [#469](https://github.com/ClassicWoWCommunity/forever-bugs/issues/469) | Ranged | Casting non-ranged abilities while a Hunter's auto shot is casting prevents them from casting | 2026-11-14 |

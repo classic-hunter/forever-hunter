@@ -1,8 +1,8 @@
 {
-  "generatedAt": "2026-11-24T21:16:03.900Z",
+  "generatedAt": "2026-11-25T04:19:26.404Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 32,
+  "count": 31,
   "bugs": [
     {
       "number": 619,
@@ -14,18 +14,6 @@
       "labels": [],
       "createdAt": "2026-11-24T03:11:20Z",
       "updatedAt": "2026-11-24T03:11:33Z",
-      "author": "yatelixinuo"
-    },
-    {
-      "number": 618,
-      "title": "Hunter Beast Mastery talent Ferocity only increases pet/hawk SPELL critical strike chance instead of all critical strikes",
-      "status": "Open",
-      "category": "Pets",
-      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/618",
-      "trackerUrl": "https://4evrbugs.com/bug/618",
-      "labels": [],
-      "createdAt": "2026-11-24T03:11:19Z",
-      "updatedAt": "2026-11-24T03:11:29Z",
       "author": "yatelixinuo"
     },
     {
@@ -130,7 +118,7 @@
         "Pending Approval"
       ],
       "createdAt": "2026-11-12T04:20:40Z",
-      "updatedAt": "2026-11-12T04:20:51Z",
+      "updatedAt": "2026-11-25T01:42:40Z",
       "author": "SinChase"
     },
     {
