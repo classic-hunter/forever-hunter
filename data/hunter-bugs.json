@@ -1,9 +1,21 @@
 {
-  "generatedAt": "2026-11-25T04:19:26.404Z",
+  "generatedAt": "2026-11-25T15:39:28.084Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 31,
+  "count": 32,
   "bugs": [
+    {
+      "number": 628,
+      "title": "Ferocity does not increase the PET's melee critical strike chance (spell crit only) - follow-up to #618",
+      "status": "Open",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/628",
+      "trackerUrl": "https://4evrbugs.com/bug/628",
+      "labels": [],
+      "createdAt": "2026-11-25T01:35:31Z",
+      "updatedAt": "2026-11-25T01:35:44Z",
+      "author": "yatelixinuo"
+    },
     {
       "number": 619,
       "title": "Summon Hawk causes the whole nearby pack to aggro when used on a single mob - abnormal threat",
@@ -118,7 +130,7 @@
         "Pending Approval"
       ],
       "createdAt": "2026-11-12T04:20:40Z",
-      "updatedAt": "2026-11-25T01:42:40Z",
+      "updatedAt": "2026-11-25T09:37:44Z",
       "author": "SinChase"
     },
     {
