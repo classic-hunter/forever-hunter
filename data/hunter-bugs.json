@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-25T15:39:28.084Z",
+  "generatedAt": "2026-11-26T00:24:57.508Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 32,
+  "count": 33,
   "bugs": [
+    {
+      "number": 633,
+      "title": "[Hunter] Summon Hawk",
+      "status": "Awaiting review",
+      "category": "Pets",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/633",
+      "trackerUrl": "https://4evrbugs.com/bug/633",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-25T10:47:20Z",
+      "updatedAt": "2026-11-25T19:45:11Z",
+      "author": "kirillkilchynsky-lgtm"
+    },
     {
       "number": 628,
       "title": "Ferocity does not increase the PET's melee critical strike chance (spell crit only) - follow-up to #618",
@@ -13,7 +28,7 @@
       "trackerUrl": "https://4evrbugs.com/bug/628",
       "labels": [],
       "createdAt": "2026-11-25T01:35:31Z",
-      "updatedAt": "2026-11-25T01:35:44Z",
+      "updatedAt": "2026-11-25T18:16:27Z",
       "author": "yatelixinuo"
     },
     {

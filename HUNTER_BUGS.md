@@ -4,9 +4,9 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-25T15:39:28.084Z
+**Last sync:** 2026-11-26T00:24:57.508Z
 
-**Tracked Hunter issues:** 32
+**Tracked Hunter issues:** 33
 
 ## Open (6)
 
@@ -19,10 +19,11 @@ This dashboard is generated automatically.
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
 | [#14](https://github.com/ClassicWoWCommunity/forever-bugs/issues/14) | Ranged | Ranged swing timer is reset by melee | 2026-10-16 |
 
-## Awaiting review (26)
+## Awaiting review (27)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
+| [#633](https://github.com/ClassicWoWCommunity/forever-bugs/issues/633) | Pets | [Hunter] Summon Hawk | 2026-11-25 |
 | [#616](https://github.com/ClassicWoWCommunity/forever-bugs/issues/616) | Traps | Explosive Trap can only have one instance of the dot effect up at a time | 2026-11-23 |
 | [#588](https://github.com/ClassicWoWCommunity/forever-bugs/issues/588) | Talents | Permanence [legacy talent] has no effect on Trueshot Aura | 2026-11-21 |
 | [#571](https://github.com/ClassicWoWCommunity/forever-bugs/issues/571) | Pets | Legacy Talent - Quick and the Dead not applying to certain spells | 2026-11-19 |
