@@ -4,16 +4,15 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-26T09:34:20.161Z
+**Last sync:** 2026-11-26T19:39:06.193Z
 
-**Tracked Hunter issues:** 32
+**Tracked Hunter issues:** 31
 
-## Open (6)
+## Open (5)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
-| [#628](https://github.com/ClassicWoWCommunity/forever-bugs/issues/628) | Pets | Ferocity does not increase the PET's melee critical strike chance (spell crit only) - follow-up to #618 | 2026-11-25 |
-| [#619](https://github.com/ClassicWoWCommunity/forever-bugs/issues/619) | Other | Summon Hawk causes the whole nearby pack to aggro when used on a single mob - abnormal threat | 2026-11-24 |
+| [#619](https://github.com/ClassicWoWCommunity/forever-bugs/issues/619) | Other | Summon Hawk causes the whole nearby pack to aggro when used on a single mob - abnormal threat | 2026-11-26 |
 | [#433](https://github.com/ClassicWoWCommunity/forever-bugs/issues/433) | Pets | [Hunter] [Pets] Pet Defensive not working as intended | 2026-11-11 |
 | [#352](https://github.com/ClassicWoWCommunity/forever-bugs/issues/352) | Talents | [Hunter] Active Hawk keeps casting with !Aspect; stance API reports 0 | 2026-11-12 |
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
