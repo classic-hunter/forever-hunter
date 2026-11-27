@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-27T02:53:07.515Z",
+  "generatedAt": "2026-11-27T12:29:11.669Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 31,
+  "count": 32,
   "bugs": [
+    {
+      "number": 647,
+      "title": "[Hunter] Auto-Shot can not be cancelled.",
+      "status": "Awaiting review",
+      "category": "Ranged",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/647",
+      "trackerUrl": "https://4evrbugs.com/bug/647",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-26T20:36:59Z",
+      "updatedAt": "2026-11-26T20:37:12Z",
+      "author": "ryantheleach"
+    },
     {
       "number": 619,
       "title": "Summon Hawk causes the whole nearby pack to aggro when used on a single mob - abnormal threat",
