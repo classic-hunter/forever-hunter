@@ -4,7 +4,7 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-26T19:39:06.193Z
+**Last sync:** 2026-11-27T02:53:07.515Z
 
 **Tracked Hunter issues:** 31
 
@@ -36,7 +36,7 @@ This dashboard is generated automatically.
 | [#443](https://github.com/ClassicWoWCommunity/forever-bugs/issues/443) | Traps | [Hunter][Talent] Entrapment and Freezing Trap | 2026-10-28 |
 | [#425](https://github.com/ClassicWoWCommunity/forever-bugs/issues/425) | Traps | ALL shaman totems are eating hunter traps, not just grounding. | 2026-10-22 |
 | [#402](https://github.com/ClassicWoWCommunity/forever-bugs/issues/402) | Pets | [Hunter][Pets] Pet regeneration & trailing issues | 2026-11-12 |
-| [#386](https://github.com/ClassicWoWCommunity/forever-bugs/issues/386) | Ranged | Auto Shot gets cancelled when quickly switching targets | 2026-10-18 |
+| [#386](https://github.com/ClassicWoWCommunity/forever-bugs/issues/386) | Ranged | Auto Shot gets cancelled when quickly switching targets | 2026-11-26 |
 | [#378](https://github.com/ClassicWoWCommunity/forever-bugs/issues/378) | Pets | Beast Lore does not provide full information | 2026-10-16 |
 | [#377](https://github.com/ClassicWoWCommunity/forever-bugs/issues/377) | Pets | Hunter Pet happiness randomly resets to its maximum value | 2026-11-13 |
 | [#361](https://github.com/ClassicWoWCommunity/forever-bugs/issues/361) | Ranged | [Hunter] Auto shot cast time can be removed by spamming Auto Shot | 2026-11-12 |
