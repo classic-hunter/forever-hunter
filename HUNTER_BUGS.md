@@ -4,9 +4,9 @@ This dashboard is generated automatically.
 
 **Tracker:** [4evrbugs](https://4evrbugs.com/)  
 **Issue details:** [ClassicWoWCommunity/forever-bugs](https://github.com/ClassicWoWCommunity/forever-bugs/issues)  
-**Last sync:** 2026-11-28T03:55:42.179Z
+**Last sync:** 2026-11-28T13:03:53.797Z
 
-**Tracked Hunter issues:** 32
+**Tracked Hunter issues:** 33
 
 ## Open (5)
 
@@ -18,10 +18,11 @@ This dashboard is generated automatically.
 | [#76](https://github.com/ClassicWoWCommunity/forever-bugs/issues/76) | Ranged | Hunter - Auto shot sound doesn't trigger  while channeling Aimed shot | 2026-10-21 |
 | [#14](https://github.com/ClassicWoWCommunity/forever-bugs/issues/14) | Ranged | Ranged swing timer is reset by melee | 2026-10-16 |
 
-## Awaiting review (27)
+## Awaiting review (28)
 
 | Issue | Category | Title | Updated |
 | --- | --- | --- | --- |
+| [#652](https://github.com/ClassicWoWCommunity/forever-bugs/issues/652) | Traps | Explosive trap initial damage missing sometimes | 2026-11-27 |
 | [#647](https://github.com/ClassicWoWCommunity/forever-bugs/issues/647) | Ranged | [Hunter] Auto-Shot can not be cancelled. | 2026-11-26 |
 | [#616](https://github.com/ClassicWoWCommunity/forever-bugs/issues/616) | Traps | Explosive Trap can only have one instance of the dot effect up at a time | 2026-11-23 |
 | [#588](https://github.com/ClassicWoWCommunity/forever-bugs/issues/588) | Talents | Permanence [legacy talent] has no effect on Trueshot Aura | 2026-11-21 |

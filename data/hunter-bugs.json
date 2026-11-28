@@ -1,9 +1,24 @@
 {
-  "generatedAt": "2026-11-28T03:55:42.179Z",
+  "generatedAt": "2026-11-28T13:03:53.797Z",
   "trackerUrl": "https://4evrbugs.com/",
   "upstreamRepo": "ClassicWoWCommunity/forever-bugs",
-  "count": 32,
+  "count": 33,
   "bugs": [
+    {
+      "number": 652,
+      "title": "Explosive trap initial damage missing sometimes",
+      "status": "Awaiting review",
+      "category": "Traps",
+      "url": "https://github.com/ClassicWoWCommunity/forever-bugs/issues/652",
+      "trackerUrl": "https://4evrbugs.com/bug/652",
+      "labels": [
+        "Spells and Talents",
+        "Pending Approval"
+      ],
+      "createdAt": "2026-11-27T21:04:47Z",
+      "updatedAt": "2026-11-27T23:19:23Z",
+      "author": "Truehearth"
+    },
     {
       "number": 647,
       "title": "[Hunter] Auto-Shot can not be cancelled.",
